@@ -10,6 +10,7 @@ class CreateCostumes < ActiveRecord::Migration[5.2]
       t.datetime :opening_time
       t.datetime :closing_time
 
+      t.timestamps null: false
     
     end
   end
